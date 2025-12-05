@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+/* Anthropic/Claude inspired tie-dye backgrounds */
+
+/* Coral/Peach - Intro */
+.bg-tie-dye-coral {
+  background:
+    radial-gradient(ellipse at 50% 30%, rgba(255, 255, 255, 0.95) 0%, transparent 45%),
+    radial-gradient(ellipse at 25% 60%, rgba(255, 180, 150, 0.7) 0%, transparent 50%),
+    radial-gradient(ellipse at 75% 40%, rgba(255, 200, 170, 0.6) 0%, transparent 45%),
+    radial-gradient(ellipse at 60% 80%, rgba(255, 160, 130, 0.5) 0%, transparent 50%),
+    linear-gradient(145deg, #fff5f0 0%, #ffe8dc 30%, #ffd4c4 60%, #ffccbb 100%);
+}
+
+/* Sage/Mint - Total Spend */
+.bg-tie-dye-sage {
+  background:
+    radial-gradient(ellipse at 50% 30%, rgba(255, 255, 255, 0.95) 0%, transparent 45%),
+    radial-gradient(ellipse at 30% 50%, rgba(180, 220, 180, 0.7) 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 35%, rgba(200, 230, 200, 0.6) 0%, transparent 45%),
+    radial-gradient(ellipse at 50% 75%, rgba(160, 210, 170, 0.5) 0%, transparent 50%),
+    linear-gradient(145deg, #f5fff5 0%, #e8f5e8 30%, #d4ecd4 60%, #c8e6c8 100%);
+}
+
+/* Lavender/Purple - Peak Month */
+.bg-tie-dye-lavender {
+  background:
+    radial-gradient(ellipse at 50% 30%, rgba(255, 255, 255, 0.95) 0%, transparent 45%),
+    radial-gradient(ellipse at 25% 55%, rgba(200, 180, 230, 0.7) 0%, transparent 50%),
+    radial-gradient(ellipse at 75% 40%, rgba(220, 200, 240, 0.6) 0%, transparent 45%),
+    radial-gradient(ellipse at 55% 80%, rgba(190, 170, 220, 0.5) 0%, transparent 50%),
+    linear-gradient(145deg, #faf5ff 0%, #f0e8ff 30%, #e4d8f5 60%, #d8ccee 100%);
+}
+
+/* Sky/Blue - Top Item */
+.bg-tie-dye-sky {
+  background:
+    radial-gradient(ellipse at 50% 30%, rgba(255, 255, 255, 0.95) 0%, transparent 45%),
+    radial-gradient(ellipse at 30% 60%, rgba(180, 210, 240, 0.7) 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 35%, rgba(200, 220, 250, 0.6) 0%, transparent 45%),
+    radial-gradient(ellipse at 50% 75%, rgba(170, 200, 235, 0.5) 0%, transparent 50%),
+    linear-gradient(145deg, #f5faff 0%, #e8f2ff 30%, #d4e8ff 60%, #c8e0ff 100%);
+}
+
+/* Peach/Blush - Summary */
+.bg-tie-dye-peach {
+  background:
+    radial-gradient(ellipse at 50% 35%, rgba(255, 255, 255, 0.95) 0%, transparent 50%),
+    radial-gradient(ellipse at 20% 45%, rgba(255, 200, 180, 0.7) 0%, transparent 45%),
+    radial-gradient(ellipse at 80% 30%, rgba(230, 200, 220, 0.6) 0%, transparent 40%),
+    radial-gradient(ellipse at 65% 70%, rgba(200, 220, 240, 0.5) 0%, transparent 45%),
+    radial-gradient(ellipse at 35% 80%, rgba(180, 230, 200, 0.4) 0%, transparent 40%),
+    linear-gradient(135deg, #fff8f5 0%, #fff0eb 25%, #fae8f0 50%, #f0f0ff 75%, #f0fff8 100%);
+}
+
+/* Gold/Amber - Big Spender */
+.bg-tie-dye-gold {
+  background:
+    radial-gradient(ellipse at 50% 30%, rgba(255, 255, 255, 0.95) 0%, transparent 45%),
+    radial-gradient(ellipse at 30% 55%, rgba(255, 220, 150, 0.7) 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 40%, rgba(255, 200, 120, 0.6) 0%, transparent 45%),
+    radial-gradient(ellipse at 50% 75%, rgba(255, 180, 100, 0.5) 0%, transparent 50%),
+    linear-gradient(145deg, #fffbf0 0%, #fff5e0 30%, #ffedd5 60%, #fde68a 100%);
+}
+
+/* Card styles for glassmorphism effect */
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+}
