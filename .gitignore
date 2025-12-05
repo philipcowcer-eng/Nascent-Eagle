@@ -25,3 +25,4 @@ dist-ssr
 
 # Personal data files (don't commit Amazon CSV exports!)
 *.csv
+amazon_data/
